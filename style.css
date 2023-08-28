@@ -1,0 +1,36 @@
+*{
+    font: bolder;
+}
+main{
+    
+    background-color: orange;
+    display:block;
+    height: 400px;
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.titulo h1{
+    color: black;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 5px;
+    height:fit-content;
+    width:fit-content;
+    font-size: small;
+    display: block;
+    z-index: 1;
+}
+.imagen picture img{
+    height: 200px;
+    width: 140px;
+    }
+.informacion span{
+    display: inline-block;
+    position: relative;
+}    
+.parrafo p{
+    display: inline;
+    position: relative;
+    bottom: 5px;
+}
